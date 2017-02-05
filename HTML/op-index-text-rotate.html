@@ -54,8 +54,8 @@
                     <div id="massive-menu" class="menuzord">
 
                         <!--logo start-->
-                        <a href="index.html" class="logo-brand">
-                            <img class="retina" src="img/logo.png" alt=""/>
+                        <a href="index.html" class="logo-brand" >
+                            <img class="retina" id = "logo" src="img/logo.png" alt=""/>
                         </a>
                         <!--logo end-->
 
@@ -85,19 +85,46 @@
         <!--header end-->
 
         <!--hero section-->
-        <div id="fullscreen-banner" class="parallax text-center vertical-align parallax-9">
+         <!--
+        <div class="banner-state text-left banner-19">
             <div class="container-mid">
                 <div class="container">
-                    <div class="hero-text">
-                        <h1 class=" ls-15">I'm A <span class="typist-element typist-blink" data-typist= "Front-end Developer, UX Researcher, Lifelong Learner">UI/UX Designer</span></h1>
 
-                        <h3 class="text-uppercase">Hsuan Huang</h3>
+                    <div class="hero-text m-top-150">
+                        <h1 class="ls-15" id="typeText">I'm A <span class="typist-element typist-blink"  data-typist= "Front-end Developer., UX Researcher., Lifelong Learner.">UI/UX Designer.</span></h1>
+
+                        <h3 class="text-uppercase  m-top-30" id="nameTop">Hsuan Huang</h3>
+                       
                         <a href="#start" class="btn btn-small btn-theme-color" data-scroll>Discover</a>
-                        <!--a href="#" class="btn btn-small btn-dark-solid  "> Purchase massive</a-->
+                        <a href="#" class="btn btn-small btn-dark-solid  "> Purchase massive</a>
+                        
                     </div>
                 </div>
             </div>
+
         </div>
+        -->
+
+        <div class="banner-state text-center vertical-align banner-19">
+            <div class="container-mid">
+                <div class="container">
+
+                    <div class="hero-text">
+                        <h1 class="ls-15" id="typeText">I'm A <span class="typist-element typist-blink"  data-typist= "Front-end Developer., UX Researcher., Lifelong Learner.">UX Designer.</span></h1>
+
+                        <h3 class="text-uppercase" id="nameTop">Hsuan Huang</h3>
+                        
+                        <a href="#start" class="btn btn-large btn-rounded btn-dark-border  btn-transparent" data-scroll>Discover</a>
+                        
+                        <!--
+                        <a href="#" class="btn btn-small btn-dark-solid  "> Purchase massive</a>
+                        -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
         <!--hero section-->
 
         <!--body content start-->
@@ -135,7 +162,7 @@
                                     <i class="icon-tools2"></i>
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>UI/UX design</h4>
+                                    <h4>UX design</h4>
                                 </div>
                                 <div class="desc">
                                     I devote my efforts to user interface and user experience design throughout my master studies in Information Science at Cornell University. By using tools such as Sketch, Balsamiq and InVision, I'm capable of building interface from sketch.
@@ -154,7 +181,7 @@
                                     <h4>UX Research</h4>
                                 </div>
                                 <div class="desc">
-                                    I've acquired the skill to conduct rigorous user researches from my undergraduate psychology major, especially from my working experience as the research assistant in the lab of human perception and cognition.
+                                    I've acquired the skill to conduct rigorous user researches from my undergraduate psychology major, especially from my working experience as the research assistant in the human perception and cognition lab.
                                 </div>
                             </div>
                         </div>
@@ -164,164 +191,239 @@
             </div>
             <!--feature-->
 
-        
-
-
-
-
             <!--portfolio-->
-        <div class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration = "2s">
-            <div class="page-content p-bot-0" id="portfolio">
-                <div class="container-fluid">
 
-                    <div class="row">
+            <div class="wow fadeIn" data-wow-delay="0.1s" data-wow-duration = "2s">
+                <div class="page-content p-bot-0" id="portfolio">
+                    <div class="container">
+                        <div class="row">
                         <div class="heading-title text-center">
                             <h3 class="text-uppercase">Portfolio</h3>
                         </div>
 
+                        <div class="row">
+                        <div class="col-md-12">
 
-                        <div class="text-center">
-                            <ul class="portfolio-filter">
-                                <li class="active"><a href="#" data-filter="*"> All</a></li>
-                                <li><a href="#" data-filter=".cat1">printing</a></li>
-                                <li><a href="#" data-filter=".cat2">Web</a></li>
-                                <li><a href="#" data-filter=".cat3">illustration</a></li>
-                                <li><a href="#" data-filter=".cat4">media</a></li>
-                                <li><a href="#" data-filter=".cat5">crafts</a></li>
-                            </ul>
+                            <div class="text-center">
+                                <ul class="portfolio-filter">
+                                    <li class="active"><a href="#" data-filter="*"> All</a></li>
+                                    <li><a href="#" data-filter=".cat1">UX Design</a></li>
+                                    <li><a href="#" data-filter=".cat2">Web Development</a></li>
+                                    <li><a href="#" data-filter=".cat3">Installation</a></li>
+                                    <li><a href="#" data-filter=".cat4">Research</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="portfolio col-4 gutter ">
+
+                                <!-- United Insight-->
+                                <div class="portfolio-item cat1">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description p-bot-20">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">United Insight</a></h4>
+                                                <p><a href="#">UX Design</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Axtria-->
+
+                                <div class="portfolio-item cat1 cat2">
+                                    <div class="thumb">
+
+                                        <div class="portfolio-slider">
+                                            <ul class="slides">
+                                                <li>
+                                                    <a href="img/portfolio/07.jpg" title="Freshness Photo"><img src="img/portfolio/07.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a href="img/portfolio/07a.jpg" title="Awesome Lightbox"><img src="img/portfolio/07a.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a href="img/portfolio/07b.jpg" title="Massive UI Components"><img src="img/portfolio/07b.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a href="img/portfolio/07c.jpg" title="Amazing Theme"><img src="img/portfolio/07c.jpg" alt=""></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+                                        <div class="portfolio-hover">
+                                         
+                                            <div class="portfolio-description p-bot-20">
+                                                <h4><a href="#">Data Dashboard</a></h4>
+                                                <p><a href="#">UX Design</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- FoodShare-->
+
+                                <div class="portfolio-item cat1">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                           
+                                            <div class="portfolio-description p-bot-20">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">FoodShare</a></h4>
+                                                <p><a href="#">UX Design</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Escape-->
+
+                                <div class="portfolio-item cat1 cat2">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description p-bot-20">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">Escape</a></h4>
+                                                <p><a href="#">UX Design</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--My Portfolio-->
+
+                                <div class="portfolio-item cat1 cat2">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description p-bot-20">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">hsuanhuang.com</a></h4>
+                                                <p><a href="#">UX Design</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Secret side of japen-->
+
+                                <div class="portfolio-item cat2">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">Secret side</br> of Japan</a></h4>
+                                                <p><a href="#">Web Programming</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Step In and Out of Dream-->
+
+                                <div class="portfolio-item cat3">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">Step In and</br> Out of Dream</a></h4>
+                                                <p><a href="#">Installation</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Circuit-->
+
+                                <div class="portfolio-item cat3">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description p-bot-20">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">Circuit</a></h4>
+                                                <p><a href="#">Installation</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Moment-->
+
+                                <div class="portfolio-item cat3">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description p-bot-20">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">Moment</a></h4>
+                                                <p><a href="#">Installation</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Research 1: Loading Icon-->
+
+                                <div class="portfolio-item cat4">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">Perceived Duration </br> of icons</a></h4>
+                                                <p><a href="#">Research</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!--Research 2: Geometric Image-->
+
+                                <div class="portfolio-item cat4">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">Aeshetic Perception in Geometric Image</a></h4>
+                                                <p><a href="#">Research</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Research 3: Chinese Calligraphy (Use lightbox)-->
+
+                                <div class="portfolio-item cat4">
+                                    <div class="thumb">
+                                        <img src="img/portfolio/01.jpg" alt="">
+                                        <div class="portfolio-hover">
+                                            
+                                            <div class="portfolio-description">
+                                                <h4><a href="img/portfolio/01.jpg" class="popup-link" title="lightbox view">Aeshetic Perception in Calligraphy</a></h4>
+                                                <p><a href="#">Research</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
                         </div>
-
-                        <div class="portfolio col-4 portfolio-gallery gutter m-bot-0 inline-block">
-
-                            <div class="portfolio-item cat1 cat3 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/01.jpg" alt="">
-                                    <div class="portfolio-hover">
-                                        <div class="action-btn">
-                                            <a href="img/portfolio/01.jpg" class="popup-gallery" title="Title 1"> <i class="icon-basic_magnifier"></i>  </a>
-                                        </div>
-                                        <div class="portfolio-description">
-                                            <h4><a href="img/portfolio/01.jpg" class="popup-gallery2" title="Title 1">lightbox view</a></h4>
-                                            <p><a href="#">category</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat2 cat4 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/02.jpg" alt="">
-                                    <div class="portfolio-hover">
-                                        <div class="action-btn">
-                                            <a href="img/portfolio/02.jpg" class="popup-gallery" title="Title 2"> <i class="icon-basic_magnifier"></i>  </a>
-                                        </div>
-                                        <div class="portfolio-description">
-                                            <h4><a href="img/portfolio/02.jpg" class="popup-gallery2" title="Title 2">lightbox view</a></h4>
-                                            <p><a href="#">category</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat3 cat5 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/03.jpg" alt="">
-                                    <div class="portfolio-hover">
-                                        <div class="action-btn">
-                                            <a href="img/portfolio/03.jpg" class="popup-gallery" title="Title 3"> <i class="icon-basic_magnifier"></i>  </a>
-                                        </div>
-                                        <div class="portfolio-description">
-                                            <h4><a href="img/portfolio/03.jpg" class="popup-gallery2" title="Title 3">lightbox view</a></h4>
-                                            <p><a href="#">category</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat1 cat4 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/04.jpg" alt="">
-                                    <div class="portfolio-hover">
-                                        <div class="action-btn">
-                                            <a href="img/portfolio/04.jpg" class="popup-gallery" title="Title 4"> <i class="icon-basic_magnifier"></i>  </a>
-                                        </div>
-                                        <div class="portfolio-description">
-                                            <h4><a href="img/portfolio/04.jpg" class="popup-gallery2" title="Title 4">lightbox view</a></h4>
-                                            <p><a href="#">category</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="portfolio-item cat2 cat4">
-                                <div class="thumb">
-                                    <img src="img/portfolio/05.jpg" alt="">
-                                    <div class="portfolio-hover">
-                                        <div class="action-btn">
-                                            <a href="img/portfolio/05.jpg" class="popup-gallery" title="Title 5"> <i class="icon-basic_magnifier"></i>  </a>
-                                        </div>
-                                        <div class="portfolio-description">
-                                            <h4><a href="img/portfolio/05.jpg" class="popup-gallery2" title="Title 5">lightbox view</a></h4>
-                                            <p><a href="#">category 3</a> , <a href="#">category 4</a> </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="portfolio-item cat1 cat4 cat3 cat5">
-                                <div class="thumb">
-                                    <img src="img/portfolio/06.jpg" alt="">
-                                    <div class="portfolio-hover">
-                                        <div class="action-btn">
-                                            <a href="img/portfolio/06.jpg" class="popup-gallery" title="Title 6"> <i class="icon-basic_magnifier"></i>  </a>
-                                        </div>
-                                        <div class="portfolio-description">
-                                            <h4><a href="img/portfolio/06.jpg" class="popup-gallery2" title="Title 6">lightbox view</a></h4>
-                                            <p><a href="#">category 5</a> , <a href="#">category 6</a> </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat2 cat5">
-                                <div class="thumb">
-                                    <img src="img/portfolio/07.jpg" alt="">
-                                    <div class="portfolio-hover">
-                                        <div class="action-btn">
-                                            <a href="img/portfolio/07.jpg" class="popup-gallery" title="Title 7"> <i class="icon-basic_magnifier"></i>  </a>
-                                        </div>
-                                        <div class="portfolio-description">
-                                            <h4><a href="img/portfolio/07.jpg" class="popup-gallery2" title="Title 7">lightbox view</a></h4>
-                                            <p><a href="#">category</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat2 cat5">
-                                <div class="thumb">
-                                    <img src="img/portfolio/08.jpg" alt="">
-                                    <div class="portfolio-hover">
-                                        <div class="action-btn">
-                                            <a href="img/portfolio/08.jpg" class="popup-gallery" title="Title 8"> <i class="icon-basic_magnifier"></i>  </a>
-                                        </div>
-                                        <div class="portfolio-description">
-                                            <h4><a href="img/portfolio/08.jpg" class="popup-gallery2" title="Title 8">lightbox view</a></h4>
-                                            <p><a href="#">category</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-
                     </div>
                 </div>
-            </div>
-        </div>
+
+
+
             <!--portfolio-->
 
 
@@ -339,6 +441,73 @@
 
                     <div class="heading-title  text-center ">
                         <h3 class="text-uppercase">Contact Me</h3>
+
+
+                        <div class = "row m-top-30 m-bot-30">
+                            <div class = "text-center">
+
+
+                               
+                                    <img class = "circle" src = "img/myPic.jpg" width = "300px" height ="300px">
+                             
+
+                                <div class="sub-title p-tb-50">Hsuan Huang</div>
+
+                                    <div class="container">
+                                        <div class="row ">
+                                            <div class="col-md-4">
+                                                <div class="featured-item text-center">
+                                                    <a href = "https://drive.google.com/a/cornell.edu/file/d/0Bz8PjqW95bMjQzJ6TEpiaFJLeVk/view?usp=sharing">
+
+                                                    <div class="icon wow bounceInDown">
+                                                        <i class="icon-document"></i>
+                                                    </div>
+                                                    <div class="title text-uppercase">
+                                                        <h4>Resume</h4>
+                                                    </div>
+                                                    <div class="desc">
+                                                        click here to see my resume
+                                                    </div>
+
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="featured-item text-center">
+                                                    <div class="icon wow bounceInDown">
+                                                        <i class="icon-mobile"></i>
+                                                    </div>
+                                                    <div class="title text-uppercase">
+                                                        <h4>call me</h4>
+                                                    </div>
+                                                    <div class="desc">
+                                                        +1 702-683-7936
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="featured-item text-center">
+                                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hh633@cornell.edu"> 
+                                                    <div class="icon wow bounceInDown">
+                                                        <i class="icon-envelope"></i>
+                                                    </div>
+                                                    <div class="title text-uppercase">
+                                                        <h4>mail me</h4>
+                                                    </div>
+                                                    <div class="desc">
+                                                        hh633@cornell.edu
+                                                    </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                           
+
+                        </div>
                         
                         
                     </div>
@@ -411,7 +580,6 @@
                     <a href="#"><i class="fa fa-github"></i></a>
                     <a href="#"><i class="fa fa-facebook"></i></a>
                     <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-behance"></i></a>
 
                 </div>
                 <div class="copyright">
