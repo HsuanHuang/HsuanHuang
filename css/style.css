@@ -65,6 +65,10 @@ Table of contents
 @import url("linea-icon.css");
 
 
+.bigsur{
+    background-image: url("../img/banner/banner1-dark.jpg")!important;
+}
+
 #logo{
     height: 90px;
     padding-top: 20px;
@@ -3841,7 +3845,7 @@ address p {
 }
 
 .banner-19 {
-    background-image: url("../img/banner/banner1c-dark.jpg")!important;
+    background-image: url("../img/banner/banner1-dark.jpg")!important;
 }
 
 .banner-20 {
@@ -4021,9 +4025,7 @@ address p {
     background-image: url("../img/parallax/8.jpg")!important;
 }
 
-.parallax-9 {
-    background-image: url("../img/banner/banner1c-dark.jpg")!important;
-}
+
 
 .parallax-10 {
     background-image: url("../img/parallax/10.jpg")!important;
