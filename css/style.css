@@ -73,24 +73,50 @@ Table of contents
 #typeText{
     margin-top: 200px;
     color:#f0c62f;
-    font-background: rgba(255,255,255, 0.5);
+    font-family: 'Futura', sans-serif;
+    font-style: italic;
     font-size:36pt;
-    font-weight: 600;
+    font-weight: 500;
+
 
 }
 
 #nameTop{
     color: white;
-    font-family: "Abel";
-    font-size: 72pt;
-    font-weight: 800;
+    font-family: "Lato","Source Sans Pro", sans-serif;
+    
+    font-size: 55pt;
+    font-weight: 600;
 
+    margin-top: 8px;
+
+}
+
+#btnWord{
+    font-size: 14pt;
+    font-family: 'Lato', sans-serif;
 
 }
 
 
+.thumbnail {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
 
-#themeColor{
+.themeColor{
     color: #f0c62f;
 }
 /*-------------------------------------------------------------------
@@ -163,7 +189,7 @@ Table of contents
 
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', 'Abel',sans-serif;
     line-height: 1.5;
     color: #323232;
     font-size: 15px;
@@ -1439,7 +1465,7 @@ header.nav-block-left {
 
 .portfolio .portfolio-item .thumb img{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
 }
 
@@ -3815,7 +3841,7 @@ address p {
 }
 
 .banner-19 {
-    background-image: url("../img/banner/banner1.jpg")!important;
+    background-image: url("../img/banner/banner1c-dark.jpg")!important;
 }
 
 .banner-20 {
@@ -3996,7 +4022,7 @@ address p {
 }
 
 .parallax-9 {
-    background-image: url("../img/parallax/9.jpg")!important;
+    background-image: url("../img/banner/banner1c-dark.jpg")!important;
 }
 
 .parallax-10 {
