@@ -65,6 +65,19 @@ Table of contents
 @import url("linea-icon.css");
 
 
+
+.page-content p{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+
 .bigsur{
     background-image: url("../img/banner/banner1-dark.jpg")!important;
 }
@@ -2676,6 +2689,11 @@ header + .vertical-align .banner-title {
 
 
 /*spacing*/
+
+
+.ls-5 {
+    letter-spacing: 5px !important;
+}
 
 .ls-20 {
     letter-spacing: 20px !important;
