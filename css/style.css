@@ -66,9 +66,19 @@ Table of contents
 
 
 
+
+.blur{
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+
 .page-content p{
     font-size: 18px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .italic{
@@ -1579,6 +1589,10 @@ header.nav-block-left {
     padding: 10px;
 }
 
+
+.gutter-20{
+    padding: 20px;
+}
 
 /*portfolio 2 grid*/
 
