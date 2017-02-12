@@ -89,7 +89,8 @@ Table of contents
 }
 
 .bigsur{
-    background-image: url("../img/banner/banner1-dark.jpg")!important;
+  background-image: url("../img/banner/bigsur-d.jpg")!important;
+ 
 }
 
 #logo{
@@ -110,10 +111,10 @@ Table of contents
 
 #nameTop{
     color: white;
-    font-family: "Lato","Source Sans Pro", sans-serif;
+    font-family: "Gillsan", sans-serif;
     
-    font-size: 55pt;
-    font-weight: 600;
+    font-size: 60pt;
+    font-weight: 800;
 
     margin-top: 8px;
 
@@ -219,7 +220,7 @@ body {
     font-family: 'Source Sans Pro', 'Abel',sans-serif;
     line-height: 1.5;
     color: #323232;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     text-rendering:optimizeLegibility;
     -webkit-font-smoothing: antialiased;
