@@ -76,7 +76,7 @@ Table of contents
 }
 
 
-.page-content p{
+.content p{
     font-size: 18px;
     letter-spacing: 1px;
 }
@@ -111,7 +111,9 @@ Table of contents
 
 #nameTop{
     color: white;
-    font-family: "Gillsan", sans-serif;
+    font-family: "Abel", sans-serif;
+
+    letter-spacing: 10px;
     
     font-size: 60pt;
     font-weight: 800;
@@ -127,22 +129,6 @@ Table of contents
 }
 
 
-.thumbnail {
-  position: relative;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-.thumbnail img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
-}
 
 .themeColor{
     color: #f0c62f;
@@ -1854,8 +1840,9 @@ header.nav-block-left {
 }
 
 .portfolio-meta li {
-    margin: 15px 0;
+    margin: 13px 0;
     color: #666;
+    font-size: 15px;
 }
 
 .portfolio-meta li span {
@@ -1863,7 +1850,7 @@ header.nav-block-left {
     width: 130px;
     letter-spacing: 2px;
     color: #000;
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
 }
 
