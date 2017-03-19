@@ -1448,7 +1448,7 @@ header.nav-block-left {
 }
 
 .overlay-dark {
-    background: rgba(0,0,0,.5);
+    background: #3A3A3A;
     display: inherit;
 }
 
