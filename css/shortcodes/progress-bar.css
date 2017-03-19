@@ -11,7 +11,7 @@
     letter-spacing: 1px;
     overflow: visible;
     height: 2px;
-    background: #EAE8E8;
+    background: white;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
@@ -23,9 +23,9 @@
     padding-top: 2px;
     position: relative;
     overflow: visible;
-    background-color: #222;
+    background-color: #FFC900;
     font-size: 11px;
-    color: #7e7e7e;
+    color: #FFC900;
     text-align: left;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -94,7 +94,7 @@
 
 .massive-progress-alt.progress-theme-color .progress-bar,
 .massive-progress-alt.progress-theme-color .progress-bar > span{
-    color: #fff;
+    color: #FFC900;
 }
 
 

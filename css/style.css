@@ -61,11 +61,41 @@ Table of contents
     import css files
 -------------------------------------------------------------------*/
 
+
+
+
+
 @import url("animate.css");
 @import url("linea-icon.css");
 
 
 
+
+
+#typeText{
+    margin-top: 200px;
+    margin-left: 20px;
+    color:#FFC800;
+    font-family: "Charter","Futura",'Source Sans Pro';
+    /*font-style: italic;*/
+    font-size:30pt;
+
+
+}
+
+
+
+#firstline{
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    font-family: "Abel","Charter",'Source Sans Pro';
+}
+
+.name{
+    color:black;
+}
 
 .blur{
   -webkit-filter: blur(5px);
@@ -89,44 +119,32 @@ Table of contents
 }
 
 .bigsur{
-  background-image: url("../img/banner/bigsur-d.jpg")!important;
+  background-image: url("../img/banner/banner1-dark.jpg")!important;
  
 }
 
-#logo{
+#cornell{
+    margin-left: -10px;
+    width: 90px;
     height: 90px;
+}
+
+
+
+#logo{
+    height: 70px;
     padding-top: 20px;
 }
 
-#typeText{
-    margin-top: 200px;
-    color:#f0c62f;
-    font-family: 'Futura', sans-serif;
-    font-style: italic;
-    font-size:36pt;
-    font-weight: 500;
 
 
-}
-
-#nameTop{
-    color: white;
-    font-family: "Abel", sans-serif;
-
-    letter-spacing: 10px;
-    
-    font-size: 60pt;
-    font-weight: 800;
-
-    margin-top: 8px;
-
-}
 
 #btnWord{
     
     font-family: 'Lato', sans-serif;
 
 }
+
 
 
 

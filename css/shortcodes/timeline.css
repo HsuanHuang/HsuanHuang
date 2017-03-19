@@ -61,7 +61,7 @@ h3.timeline-title {
     position:relative;
 }
 .timeline-desk h1 {
-    font-size:16px;
+    font-size:20px;
     font-weight:300;
     margin:0 0 5px;
 }
@@ -88,7 +88,7 @@ h3.timeline-title {
 
 
 .timeline .timeline-icon {
-    background:#222;
+    background:#FFC800;
     border: 5px solid #fff;
 }
 
@@ -155,7 +155,7 @@ h3.timeline-title {
 }
 
 .timeline-desk p {
-    font-size:14px;
+    font-size:18px;
     margin-bottom:0;
     color:#999;
 }
