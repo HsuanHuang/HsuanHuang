@@ -733,6 +733,31 @@ Table of contents
    ------------------------------- */
   
 @media screen and (max-width: 479px) {
+
+
+    .hero-text{
+       padding-bottom: 50px;
+       margin-bottom: -100px;
+    }
+
+    #firstline{
+        display: none;
+    }
+
+    #mobile{
+        display:inline;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    #typeText{
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+
+
+
     .clients.grid-2 li, .clients.grid-3 li, .clients.grid-4 li, .clients.grid-5 li, .clients.grid-6 li, .testimonial.grid-2 li {
         width: 100%;
     }

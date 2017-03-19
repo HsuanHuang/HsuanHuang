@@ -83,7 +83,9 @@ Table of contents
 
 }
 
-
+#mobile{
+    display:none;        
+}
 
 #firstline{
     font-size: 25px;
