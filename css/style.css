@@ -1,9 +1,5 @@
 /*------------------------------------------------------------------
-Common Stylesheet
 
-Project:   Massive - Multipurpose Responsive Theme
-Build:     Bootstrap 3 +
-Author:    ThemeBucket
 
 -------------------------------------------------------------------*/
 
@@ -76,9 +72,9 @@ Table of contents
     margin-top: 200px;
     margin-left: 20px;
     color:#FFC800;
-    font-family: "Charter",'Source Sans Pro';
-    /*font-style: italic;*/
-    /*font-weight: 600;*/
+    font-family:"Futura", 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 600;
     font-size:30pt;
 
 
@@ -94,6 +90,7 @@ Table of contents
     letter-spacing: 1px;
     margin-left: 20px;
     font-family: 'Source Sans Pro',"Charter";
+    font-weight: 300;
 }
 
 .name{
