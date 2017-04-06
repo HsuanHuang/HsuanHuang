@@ -65,7 +65,9 @@ Table of contents
 @import url("linea-icon.css");
 
 
-
+.desc{
+    font-size: 15px;
+}
 
 
 #typeText{
@@ -1426,6 +1428,8 @@ header.nav-block-left {
 }
 
 
+
+
 .page-content {
     padding: 100px 0;
     display: inline-block;
@@ -1445,7 +1449,7 @@ header.nav-block-left {
 }
 
 .overlay-dark {
-    background: #3A3A3A;
+    background: gray;
     display: inherit;
 }
 
