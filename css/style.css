@@ -57,10 +57,6 @@ Table of contents
     import css files
 -------------------------------------------------------------------*/
 
-#about{
-    margin-bottom: -100px;
-}
-
 
 @import url("animate.css");
 @import url("linea-icon.css");
@@ -70,6 +66,20 @@ Table of contents
     font-size: 15px;
 }
 
+
+#portfolio{
+    margin-bottom: -100px;
+}
+
+#about{
+    margin-top: -50px;
+    margin-bottom: -150px;
+}
+
+#contact{
+    margin-top: -50px;
+    margin-bottom: -150px;
+}
 
 #typeText{
     margin-top: 200px;
