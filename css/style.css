@@ -150,8 +150,8 @@ Table of contents
 
 
 #logo{
-    height: 70px;
-    padding-top: 20px;
+    height: 48px;
+    margin-top: 30px;
 }
 
 #element:hover{
@@ -472,7 +472,9 @@ header .logo-brand img {
 }
 
 header.sticky .logo-brand img, header.sticky .logo-brand img.retina  {
-    height: 40px !important;
+    height: 24px !important;
+    margin-top: 20px !important;
+
 }
 
 
@@ -1200,6 +1202,7 @@ header.nav-block-left li.nav-icon i{
 
 header.nav-block-left {
     height:auto;
+
 }
 
 .header-full-width.nav-center-align .container {
