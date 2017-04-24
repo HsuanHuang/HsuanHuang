@@ -29,7 +29,9 @@ Table of contents
 }  
 
 @media screen and (max-width: 1200px) {
-	
+	#tablet{
+        display: none;
+    }
 
     
 }
@@ -54,6 +56,9 @@ Table of contents
   
 @media screen and (max-width: 992px) {
 
+    #tablet{
+        display: none;
+    }
 
 
     /*portfolio   grid*/
@@ -107,7 +112,9 @@ Table of contents
 
 @media screen and (max-width: 800px) {
 
-
+    #tablet{
+        display: none;
+    }
 
     /*portfolio   grid*/
     .portfolio.col-2 .portfolio-item,
@@ -151,6 +158,10 @@ Table of contents
    ------------------------------- */
   
 @media screen and (max-width: 768px) {
+
+    #tablet{
+        display: none;
+    }
 
     header {
         top:0;
@@ -484,6 +495,9 @@ Table of contents
 }
 
 @media screen and (max-width: 767px) {
+    #tablet{
+        display: none;
+    }
 
     .page-title .breadcrumb {
         left: 15px;
@@ -745,13 +759,15 @@ Table of contents
     }
 
     #mobile{
-        display:inline;
-        font-size: 15px;
-        margin-left: 50px;
+        display:inline-block;
+        font-size: 20px;
+        font-family: "Source Sans Pro";
+        padding-left: 50px;
+        margin-bottom: -200px;
     }
 
     #typeText{
-        font-size: 18px;
+        font-size: 20px;
         margin-left: 50px;
     }
 

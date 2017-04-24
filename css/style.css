@@ -64,6 +64,7 @@ Table of contents
 
 .desc{
     font-size: 15px;
+    font-family: "Arial";
 }
 
 
@@ -84,9 +85,11 @@ Table of contents
 #typeText{
     margin-top: 200px;
     margin-left: 20px;
-    color:#FFC800;
-    font-family:"Futura", 'Source Sans Pro';
-    font-style: italic;
+    /*color:#FFC800;*/
+    color: #33CCCC;
+
+    font-family:"Montserrat","Futura", 'Source Sans Pro';
+    /*font-style: italic;*/
     font-weight: 600;
     font-size:30pt;
 
@@ -97,13 +100,15 @@ Table of contents
     display:none;        
 }
 
+
 #firstline{
     font-size: 25px;
     text-align: left;
     letter-spacing: 1px;
     margin-left: 20px;
     font-family: 'Source Sans Pro',"Charter";
-    font-weight: 500;
+    font-weight: 400;
+    color: rgba(0,0,0,0.7);
 }
 
 .name{
@@ -149,7 +154,16 @@ Table of contents
     padding-top: 20px;
 }
 
+#element:hover{
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+}
 
+.element-text{
+    font-size: 16px;
+    font-family: "Lato";
+}
 
 
 #btnWord{
@@ -233,8 +247,9 @@ Table of contents
 -----------------------------------------------------------------*/
 
 
+
 body {
-    font-family: 'Source Sans Pro', 'Abel',sans-serif;
+    font-family: "Montserrat",'Source Sans Pro', 'Abel',sans-serif;
     line-height: 1.5;
     color: #323232;
     font-size: 17px;
@@ -259,7 +274,7 @@ h6 {
     font-weight: 600;
     line-height: 1.5;
     margin: 0 0 30px 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Montserrat",'Source Sans Pro', sans-serif;
     font-weight: normal;
 }
 
@@ -281,7 +296,9 @@ h6 {
 
 a {
     text-decoration: none !important;
+
 }
+
 
 a:hover, a:focus {
     color: #323232;
@@ -296,7 +313,7 @@ a:hover, .btn, .btn:hover  {
 
 a img,
 iframe { border: none !important; }
-
+menuzord-menu
 
 p {
     margin: 0 0 30px;
@@ -642,6 +659,7 @@ header.sticky .logo-brand {
     font-size: 13px;
     font-weight: normal;
     outline: 0;
+    font-family: "Montserrat";
     -webkit-tap-highlight-color: transparent
 }
 
@@ -1660,7 +1678,7 @@ header.nav-block-left {
     margin: 0 20px;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Montserrat",'Source Sans Pro', sans-serif;
     letter-spacing: 3px;
 }
 

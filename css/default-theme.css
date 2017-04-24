@@ -1,24 +1,24 @@
 /*------------------------------------------------------------------
 Default theme  Stylesheet
-original : #f0c62f ;
+original : #46C3DB ;
 Changed to Amber Yellow #6dc1d7;
 -------------------------------------------------------------------*/
 
 
 ::selection {
-    background: #f0c62f;
+    background: #46C3DB;
     color: #FFF;
     text-shadow: none;
 }
 
 ::-moz-selection {
-    background: #f0c62f; /* Firefox */
+    background: #46C3DB; /* Firefox */
     color: #FFF;
     text-shadow: none;
 }
 
 ::-webkit-selection {
-    background: #f0c62f; /* Safari */
+    background: #46C3DB; /* Safari */
     color: #FFF;
     text-shadow: none;
 }
@@ -60,14 +60,14 @@ a,
 .cd-nav .cd-primary-nav li.selected a,
 .no-touch .cd-nav .cd-primary-nav a:hover,
 .intro-portfolio a:hover{
-    color: #f0c62f ;
+    color: #46C3DB ;
 }
 
 .theme-color,
 .massive-progress.progress-theme-color .progress-bar,
 .massive-progress.progress-theme-color .progress-bar > span
 {
-    color: #f0c62f !important;
+    color: #46C3DB !important;
 }
 
 .theme-bg,
@@ -75,13 +75,13 @@ a,
 .massive-progress-alt.progress-theme-color .progress-bar,
 .ei-slider-thumbs li.ei-slider-element
 {
-    background: #f0c62f !important;
+    background: #46C3DB !important;
 }
 
 .btn-theme-border-color,
 .widget-social-link a:hover,
 .widget-tags a:hover {
-    border:1px solid #f0c62f ;
+    border:1px solid #46C3DB ;
 }
 
 .nav-border-bottom .menuzord .menuzord-menu>li.active>a,
@@ -90,7 +90,7 @@ a,
 .icon-tabs .nav-pills>li.active>a,
 .icon-tabs .nav-pills>li.active>a:focus,
 .icon-tabs .nav-pills>li.active>a:hover {
-    border-bottom:1px solid #f0c62f;
+    border-bottom:1px solid #46C3DB;
 }
 
 .nav-border-box .menuzord-menu > li.active > a,
@@ -98,7 +98,7 @@ a,
 .btn-theme-border-color:hover,
 .price-col.feature .p-btn:hover,
 .side-social-link a:hover{
-    border:1px solid #f0c62f;
+    border:1px solid #46C3DB;
 }
 
 .nav-boxed-color .menuzord-menu > li.active > a,
@@ -122,7 +122,7 @@ a,
 .sale-label,
 .stock .status,
 #tb-scroll-to-top:hover{
-    background: #f0c62f ;
+    background: #46C3DB ;
 }
 
 
