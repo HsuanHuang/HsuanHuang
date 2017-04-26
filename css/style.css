@@ -1,6 +1,6 @@
 /*------------------------------------------------------------------
 
-
+themeColor
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
@@ -62,10 +62,6 @@ Table of contents
 @import url("linea-icon.css");
 
 
-.desc{
-    font-size: 15px;
-    font-family: "Arial";
-}
 
 
 #portfolio{
@@ -123,9 +119,20 @@ Table of contents
   filter: blur(5px);
 }
 
+.hrline{
+    margin: 100px 0px;
+}
 
+
+
+.paragraph{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Project Content Text Editor class*/
 .content p{
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
@@ -135,19 +142,34 @@ Table of contents
 .bold{
     font-weight: bold;
 }
-
-.bigsur{
-  background-image: url("../img/banner/banner1-dark.jpg")!important;
-  height: 1000px ;
+.imgdesc{
+    font-style: italic;
+    text-align: center;
+    font-size: 16px !important;
+    color: gray;
 }
 
-#cornell{
-    margin-left: -10px;
-    width: 90px;
-    height: 90px;
+.indent{
+    margin-left: 50px;
+}
+.themeColor{
+    color: #33CCCC;
 }
 
+.quote{
+    color: #33CCCC;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px !important;
+    
 
+}
+
+.desc{
+    font-size: 15px;
+    font-family: "Timmana";
+}
+/*End of Project Content Text Editor*/
 
 #logo{
     height: 48px;
@@ -155,9 +177,11 @@ Table of contents
 }
 
 #element:hover{
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     transition: 0.5s;
+    border: 5px solid rgba(51,204,204, 0.5);
+    border-radius: 100%;
 }
 
 .element-text{
@@ -166,18 +190,12 @@ Table of contents
 }
 
 
-#btnWord{
-    
-    font-family: 'Lato', sans-serif;
-
-}
 
 
 
 
-.themeColor{
-    color: #f0c62f;
-}
+
+
 /*-------------------------------------------------------------------
     tb preloader
 -------------------------------------------------------------------*/
