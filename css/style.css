@@ -149,6 +149,10 @@ Table of contents
     color: gray;
 }
 
+.linespacing{
+    line-height: 40px;
+}
+
 .indent{
     margin-left: 50px;
 }
@@ -1696,7 +1700,7 @@ header.nav-block-left {
 
 .portfolio-filter li a {
     color: #a9a8a8;
-    margin: 0 20px;
+    margin: 0 40px;
     text-transform: uppercase;
     font-size: 14px;
     font-family: "Montserrat",'Source Sans Pro', sans-serif;
