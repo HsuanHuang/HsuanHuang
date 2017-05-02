@@ -1444,7 +1444,6 @@ header.nav-block-left {
 }
 
 .parallax {
-    background-image: url("../img/demo.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1453,7 +1452,6 @@ header.nav-block-left {
 }
 
 .parallax-inner {
-    background-image: url("../img/demo.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -4233,7 +4231,8 @@ address p {
 }
 
 .parallax-s {
-    background-image: url("../img/spa/s-parallax.jpg")!important;
+    background-image: url("../img/spa/s-
+        .jpg")!important;
 }
 
 /**/
