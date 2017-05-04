@@ -132,7 +132,7 @@
 
 
                             <p>
-                                This business big data dashboard is a semester-long project which Cornell collaborated with Axtria, a business big data analytics company. The goal is to build a fully-functioning, visually appealing, and user-friendly new user interface for the data dashboard. In addition, we needed to connect the interface with the back-end data set on Amazon Web Service. I designed the user interface and developed the front-end of this data dashboard.<a href="https://hsuanhuang.github.io/AxtriaModel/index.html"  target="_blank">Take a look at the prototype!</a>
+                                This business big data dashboard is a semester-long project which Cornell collaborated with Axtria, a business big data analytics company. The goal is to build a fully-functioning, visually appealing, and user-friendly new user interface for the data dashboard. In addition, we needed to connect the interface with the back-end data set on Amazon Web Service. There are two designers, one back-end developer, and one data scientist in this team. I designed the user interface and developed the front-end of this data dashboard.<a href="https://hsuanhuang.github.io/AxtriaModel/index.html"  target="_blank">Take a look at the prototype!</a>
                             </p>
                         </div>
                         
@@ -144,89 +144,221 @@
             <hr/>
            
            
-                <div class="container content text-center">
+                <div class="container content">
                     <div class="row">
                             <div class="col-md-1"></div>
                             <div class="col-md-10 m-top-100">
                             
 
-                            <div>
-                            <h4 class="text-uppercase bold m-top-30">STEP 1: User Interview</h4>
-                            <div class="icon">
-                                <i class="icon-profile-male" style="color:black; font-size:3em"></i>
+                            <!--Header& icon-->
+                            <div class="text-center">
+                                <div class="icon m-bot-50">
+                                        <img class="circle" src="img/icon/chart.png"/>
+                                </div>
+                                <h3 class="text-uppercase bold">The problem</h3>
                             </div>
-                                <p class="m-top-20">
-                                   We interviewed a user who works in Axtria as a data analytist. After gaining insights of the user needs and analyzed the requirement of client, we built several version of UI wireframe and went through several iterations before we moved on to the high-fedality prototype. 
+
+
+                             <p class="paragraph"><span class="themeColor bold">Data analysts spends more than 80% of their time on preparing the data, such as parsing, collecting, and joining data.</span> This means that they only has less than 20% of their time on actually analyzing the data and gain insights from it. In addition, <span class="themeColor bold">data preparation is regarded as the most tedious and boring part of their work.</span> </br></br>
+                             This is where me and my team want to help with. From the back-end, the data in Amazon Website Service is cleaned and parsed before sending to user's computer. In the front-end, user will have a clean, intuitive, and usable interface where they can easily retrieve data and visualize it. Also, executives and sales can find the answers to basic business questions via interacting with this easy-to-use product.
+
+                           
+                           
+                    <hr class="hrline"/>
+
+                            <div class="text-center">
+                                <div class="icon m-bot-50">
+                                        <img  src="img/icon/users.png"/>
+                                </div>
+                                <h3 class="text-uppercase bold">Define user needs</h3>
+                            </div>
+
+                            <p class="paragraph"> This product will be used by the business analyst at Axtria. To gain precise user needs,  we interviewed a data analyst who currently working in the company. <span class="themeColor bold">The client has a clear picture in mind of what pages and features they want.</span> The user needs can be put into these major points: 
+                                <p class="indent bold linespacing" >
+                                    1. Query Page: users can adjust the variables and submit queries to acquire related data</br>
+                                    2. Report Page: users can look at the acquire data and play with the variables</br> 
+                                    3. Data Visualization Page: the acquired data will be visualized here.  </br>
+                                    4. Login/Logout Page </br>
                                 </p>
-                            </div>
+                            </p>
+
+                               
+                    <hr class="hrline"/>
                                
                     
                     
-                            <h4 class="text-uppercase bold m-top-100">STEP 2: UI Wireframe</h4>
-                     
-                                <div>
-                                            
-                                            <img src="img/axtria/w1.png" width="100%"/>
-                                            <p class="m-top-20">
-                                                <span class="italic"> Login Page </span></br>
-                                                Users login here
-                                            </p>
-
-                                            <img class="m-top-50" src="img/axtria/w2.png" width="100%"/>
-                                            <p>
-                                                <span class="italic"> Query Page </span></br>Users can see the list of queries and their frequently used queries
-                                            </p>
-
-                                            <img class="m-top-50" src="img/axtria/w3.png" width="100%"/>
-                                            <p class="m-top-20">
-                                                <span class="italic"> Report Page </span></br>The search result of query is shown here and the users can manipulate the criterions to display certain columns in the table.
-                                            </p>
-
-                                            <img class="m-top-50" src="img/axtria/w4.png" width="100%"/>
-                                            <p>
-                                                <span class="italic"> Data Visualization </span></br>The search result is visualized here so that the excutives and sales can see the graph and answer basic business questions.
-                                            </p>
-
+                            <div class="text-center">
+                                <div class="m-bot-50">
+                                        <img src="img/icon/sketchbook.png"/>
                                 </div>
+                                <h3 class="text-uppercase bold">Start from scratch</h3>
+                            </div>
+                            <p class="paragraph"> The client set a relatively short design phase for this project. They put more attention on the functionality and the development. And would like us to do the same. Therefore, after the client approved the hand-drawn UI created by me, we moved into wireframe phase. 
+                            
+                            </p>
 
+                             <div id="carousel-arrow" class="paragraph carousel slide carousel-fade width-80" data-ride="carousel">
+                               <div class="post-slider text-center">
+                                   <ul class="slides" >
+                                       
+                                       <li>
+                                           <a href="javascript:;" title="Awesome Lightbox"><img src="img/axtria/w1.png" alt=""></a>
+                                           <div class="bot-caption text-left">Login Page</div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" title="Massive UI Components"><img src="img/axtria/w2.png" alt=""></a>
+                                           <div class="bot-caption text-left">Query Page:</br> users can adjust the variables and submit the queries</div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" title="Massive UI Components"><img src="img/axtria/w3.png" alt=""></a>
+                                           <div class="bot-caption text-left">Report Page:</br> There are two tables in this page and the users can play with the columns to view the data. </br> There is a list of frequently used and history queries on the bottom of the page, so that users don't need to go back to the previous page if they wanted to re-submit the query. </div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" title="Massive UI Components"><img src="img/axtria/w4.png" alt=""></a>
+                                           <div class="bot-caption text-left">Data Visualization Page:</br> This part is removed from the scope of this project, so there will only be a dummy data visualization in the final version.</div>
+                                       </li>
+                                      
+                                   </ul>
+                               </div>
+                            </div>
 
-                     
-                    <div>
-                                <h4 class="text-uppercase bold m-top-100">Step 3 : High-fedality UI</h4>
-                                <img class="m-top-30" src="img/axtria/ui1.jpg" width="100%"/>
-                                <img class="m-top-30" src="img/axtria/ui2.jpg" width="100%"/>
-                                <img class="m-top-30" src="img/axtria/ui3.jpg" width="100%"/>
-                                <img class="m-top-30" src="img/axtria/ui4.jpg" width="100%"/>
-                    </div>
+                    <hr class="hrline"/>
                     
-                    
-
-                    
-                    <div>
-                                <h4 class="text-uppercase bold m-top-150">Step 4: USER TESTING</h4>
-                                <div class="icon">
-                                <i class="icon-tools2" style="color:black; font-size:3em"></i>
+                            <div class="text-center">
+                                <div class="icon m-bot-50">
+                                        <img  src="img/icon/test.png"/>
                                 </div>
+                                <h3 class="text-uppercase bold">Test it!</h3>
+                            </div>
 
-                                <p class="m-top-30">
-                                    The client is very satisfied with the UI design and the result of the user testing is positive. The user found the nav bar is convenient to navigate between pages. The interface looks good and easy to look at for a long time.  The user can perform without hesitation and error. Take a look at the <a href="https://hsuanhuang.github.io/AxtriaModel/index.html"  target="_blank">prototype</a>.
+                            <p class="paragraph"> 
+                                Although the client is really satisfied with the wireframe and want us to move on to next design step, we still conduct a quick user-testing and gain some feedbacks. The users can perform without hesitation and error. 
+
+                                <p class="indent linespacing" >
+                                    1. The users found the top navbar is easy to use and to navigate between pages.</br>
+                                    2. The interface looks good and easy to look for target information.</br> 
                                 </p>
-                    </div>
+                            </p>
 
-    
-                    <div>
-                                <h4 class="text-uppercase bold m-top-100">STEP 5: Front-end Development</h4>
-                                <p class="m-top-20">
-                                    I used Bootstrap to build the structure of the dashboard and develop the elements according to the high-fedality prototype. 
-                                </p>
-                                <img class="m-top-50" src="img/axtria/ax1.png" width="100%"/>
-                                <img class="m-top-50" src="img/axtria/ax2.png" width="100%"/>
-                                <img class="m-top-50" src="img/axtria/ax3.png" width="100%"/>
-                                <img class="m-top-50" src="img/axtria/ax4.png" width="100%"/>
-                    </div>
+                               
+                    <hr class="hrline"/>
+                     
 
-                                            
-                        
+                            <div class="text-center">
+                                <div class="m-bot-50">
+                                        <img src="img/icon/sketch.png"/>
+                                </div>
+                                <h3 class="text-uppercase bold">Refine it!</h3>
+                            </div>
+
+                             <p class="paragraph"> 
+                                Since we didn't gain significant negative feedback in previous testing, we follow the same design and refine the wireframe into a high-fidelity prototype accordingly. One change we made here is to transform the top navbar as a side menu. The reason why is that the client want to put more pages in the future.
+
+                            <div id="carousel-arrow" class="paragraph carousel slide carousel-fade width-80" data-ride="carousel">
+                               <div class="post-slider text-center">
+                                   <ul class="slides" >
+                                       
+                                       <li>
+                                           <a href="javascript:;" title="Awesome Lightbox"><img src="img/axtria/ui1.jpg" alt=""></a>
+                                           <div class="caption text-left">Login Page</div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" title="Massive UI Components"><img src="img/axtria/ui2.jpg" alt=""></a>
+                                           <div class="caption text-left">Query Page</div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" title="Massive UI Components"><img src="img/axtria/ui3.jpg" alt=""></a>
+                                           <div class="caption text-left">Report Page </div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" title="Massive UI Components"><img src="img/axtria/ui4.jpg" alt=""></a>
+                                           <div class="caption text-left">Data Visualization Page</div>
+                                       </li>
+                                      
+                                   </ul>
+                               </div>
+                            </div>
+
+                    <hr class="hrline"/>
+
+                            <div class="text-center">
+                                <div class="m-bot-50">
+                                        <img src="img/icon/target.png"/>
+                                </div>
+                                <h3 class="text-uppercase bold">Final testing</h3>
+                            </div>
+
+                            <p class="paragraph">
+                                    The client's response to the high-fi interface is very positive and want us to move on to the development phase. Still, we conducted a final testing quickly with 5 Cornell students. The findings are mostly positive and they can complete the user task successfully. <span class="bold themeColor">One important feedback we got is that the contrast of the interface is high and would easily cause eye fatigue when looking at it for a long time.</span> This finding is important since that the users will look at the interface for a considerable amount of time when working with it. Therefore, we lower the contrast of the interface accordingly.
+                            </p>
+
+                    
+                    
+                    <hr class="hrline"/>
+
+                                <div class="text-center">
+                                <div class="m-bot-50">
+                                        <img src="img/icon/dev2.png"/>
+                                </div>
+                                <h3 class="text-uppercase bold">Front-end Development</h3>
+                            </div>
+
+                            <p class="paragraph">
+                                    Since I worked as the designer and front-end developer in this project, I built the front-end prototype based on the design with the help of Bootstrap. In the mean time, the back-end structure is completed by our data scientist and back-end developer. Therefore, we connect the front-end with the back-end to finish this project and deliver it to the client. <span class="bold themeColor">The client acceptance is highly positive and think that this product can enhance the working efficiency and effectiveness at Axtria.</span> 
+
+                            </p>
+
+                            <div id="carousel-arrow" class="paragraph carousel slide carousel-fade width-80" data-ride="carousel">
+                               <div class="post-slider text-center">
+                                   <ul class="slides" >
+                                       
+                                       <li>
+                                           <a href="javascript:;" title="Awesome Lightbox"><img src="img/axtria/ax1.png" alt=""></a>
+                                           <div class="caption text-left">Login Page</div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" title="Massive UI Components"><img src="img/axtria/ax2.png" alt=""></a>
+                                           <div class="caption text-left">Query Page</div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" title="Massive UI Components"><img src="img/axtria/ax3.png" alt=""></a>
+                                           <div class="caption text-left">Report Page </div>
+                                       </li>
+                                       <li>
+                                           <a href="javascript:;" title="Massive UI Components"><img src="img/axtria/ax4.png" alt=""></a>
+                                           <div class="caption text-left">Data Visualization Page</div>
+                                       </li>
+                                      
+                                   </ul>
+                               </div>
+                            </div>
+
+
+                            <hr class="hrline"/> 
+
+                            <div class="text-center">
+                                <div class="m-bot-50">
+                                        <img src="img/icon/attractive.png" width="128px"/>
+                                </div>
+                                <h3 class="text-uppercase bold">My Reflection</h3>
+                            </div>
+                            <p class="paragraph">
+                                In this project, I have the chance to work closely with other designers, back-end developers and data scientists. It enhanced my <span class="bold themeColor">cross-functional collaboration skill</span> by working with all kind of people. The most important part is to respect their own working style and to make the process visible for everyone in the same time. </br></br> Also, I learned how to <span class="bold themeColor">balance between client's request and users need.</span> The clients want us to move on to the development phase as soon as possible. However, I brought up the importance of iteration to them and made sure that we will still finish the project in expected timeline. 
+
+                                   
+                            </p>
+
+
+
+
+
+
+                        <hr class="hrline"/> 
+
+
+
+
+
 
                         </div>
                     </div>
