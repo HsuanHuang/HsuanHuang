@@ -84,7 +84,7 @@ Table of contents
     /*color:#FFC800;*/
     color: #33CCCC;
 
-    font-family:"Montserrat","Futura", 'Source Sans Pro';
+    font-family:'Montserrat',"Futura", 'Source Sans Pro';
     /*font-style: italic;*/
     font-weight: 600;
     font-size:30pt;
@@ -92,15 +92,17 @@ Table of contents
 
 }
 
+
+
 #mobile{
-    display:none;        
+    display:none;
 }
 
 
 #firstline{
     font-size: 25px;
     text-align: left;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     margin-left: 20px;
     font-family: 'Source Sans Pro',"Charter";
     font-weight: 400;
@@ -165,13 +167,13 @@ Table of contents
     font-style: italic;
     font-weight: bold;
     font-size: 24px !important;
-    
+
 
 }
 
 .desc{
     font-size: 15px;
-    font-family: "Timmana";
+    font-family: "Timmana", 'Source Sans Pro';
 }
 /*End of Project Content Text Editor*/
 
@@ -683,7 +685,7 @@ header.sticky .logo-brand {
     font-size: 13px;
     font-weight: normal;
     outline: 0;
-    font-family: "Montserrat";
+    font-family: "Montserrat", 'Source Sans Pro';
     -webkit-tap-highlight-color: transparent
 }
 
