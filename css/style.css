@@ -94,10 +94,9 @@ Table of contents
 
 
 
-#mobile{
-    display:none;
+#mobile-firstline{
+  visibility: hidden;
 }
-
 
 #firstline{
     font-size: 25px;

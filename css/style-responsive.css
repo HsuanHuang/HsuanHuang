@@ -23,23 +23,21 @@ Table of contents
    ------------------------------- */
 
 @media screen and (max-width: 1366px) {
-	
 
-	
-}  
+
+
+}
 
 @media screen and (max-width: 1200px) {
-	#tablet{
-        display: none;
-    }
 
-    
+
+
 }
 
 @media screen and (max-width: 1199px) {
-    
 
-    
+
+
 }
 
 /* -------------------------------
@@ -53,12 +51,9 @@ Table of contents
     }
 
 }
-  
+
 @media screen and (max-width: 992px) {
 
-    #tablet{
-        display: none;
-    }
 
 
     /*portfolio   grid*/
@@ -152,16 +147,49 @@ Table of contents
     }
 }
 
-  
+
 /* -------------------------------
    Tablet Portrait
    ------------------------------- */
-  
+
 @media screen and (max-width: 768px) {
 
-    #tablet{
-        display: none;
+
+
+		#logo{
+			height: 28px;
+			margin: 10px 0px;
+		}
+
+		/* #typeText{
+			font-size: 20px;
+			margin-left: 50px;
+			letter-spacing: normal;
+		} */
+
+		#firstline{
+			display: inline-block;
+		}
+
+		#mobile-firstline{
+			visibility: hidden;
+			font-size: 20px;
+			letter-spacing: normal;
+			font-family: "Source Sans Pro";
+
+		}
+
+		.hero-text{
+       padding-bottom: 50px;
     }
+
+		.portfolio-filter{
+			margin-top: 80px;
+		}
+
+
+
+
 
     header {
         top:0;
@@ -495,9 +523,32 @@ Table of contents
 }
 
 @media screen and (max-width: 767px) {
-    #tablet{
-        display: none;
+
+
+		#typeText{
+			font-size: 20px;
+			margin-left: 50px;
+			letter-spacing: normal;
+		}
+
+		#firstline{
+			display: none;
+		}
+
+		#mobile-firstline{
+			visibility: visible;
+			font-size: 20px;
+			letter-spacing: normal;
+			margin-left: 50px;
+			max-width: 90%;
+			font-family: "Source Sans Pro";
+
+		}
+
+		.hero-text{
+       padding-bottom: 50px;
     }
+
 
     .page-title .breadcrumb {
         left: 15px;
@@ -704,8 +755,31 @@ Table of contents
 /* -------------------------------
    Phone
    ------------------------------- */
-  
+
 @media screen and (max-width: 480px) {
+
+
+
+	    .hero-text{
+	       padding-bottom: 50px;
+	       margin-bottom: -100px;
+	    }
+
+	    #firstline{
+	        display: none;
+	    }
+
+	    #mobile-firstline{
+	        display:inline-block;
+	        font-size: 20px;
+	        font-family: "Source Sans Pro";
+	        margin-bottom: -200px;
+	    }
+
+	    #typeText{
+	        font-size: 20px;
+	        margin-left: 50px;
+	    }
 
     /*portfolio   grid*/
     .portfolio.col-2 .portfolio-item,
@@ -745,7 +819,7 @@ Table of contents
 /* -------------------------------
    Small Phone
    ------------------------------- */
-  
+
 @media screen and (max-width: 479px) {
 
 
@@ -758,11 +832,10 @@ Table of contents
         display: none;
     }
 
-    #mobile{
+    #mobile-firstline{
         display:inline-block;
         font-size: 20px;
         font-family: "Source Sans Pro";
-        padding-left: 50px;
         margin-bottom: -200px;
     }
 
@@ -854,4 +927,3 @@ Table of contents
 
 
 }
-
