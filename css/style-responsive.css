@@ -26,15 +26,18 @@ Table of contents
 
 
 
+
 }
 
 @media screen and (max-width: 1200px) {
 
 
 
+
 }
 
 @media screen and (max-width: 1199px) {
+
 
 
 
@@ -46,6 +49,9 @@ Table of contents
 
 @media screen and (max-width: 1024px) {
 
+
+
+
     .login-box.gray-bg {
         margin-bottom: 20px;
     }
@@ -53,6 +59,11 @@ Table of contents
 }
 
 @media screen and (max-width: 992px) {
+
+	.portfolio-description, #mobile-description{
+		display: none;
+	}
+
 
 
 
@@ -107,6 +118,8 @@ Table of contents
 
 @media screen and (max-width: 800px) {
 
+
+
     #tablet{
         display: none;
     }
@@ -156,16 +169,14 @@ Table of contents
 
 
 
+
+
+
 		#logo{
 			height: 28px;
 			margin: 10px 0px;
 		}
 
-		/* #typeText{
-			font-size: 20px;
-			margin-left: 50px;
-			letter-spacing: normal;
-		} */
 
 		#firstline{
 			display: inline-block;
@@ -176,7 +187,6 @@ Table of contents
 			font-size: 20px;
 			letter-spacing: normal;
 			font-family: "Source Sans Pro";
-
 		}
 
 		.hero-text{
@@ -524,6 +534,13 @@ Table of contents
 
 @media screen and (max-width: 767px) {
 
+	.portfolio-description, #mobile-description{
+		display: run-in;
+		margin-top: 10px;
+		margin-bottom: 40px;
+
+	}
+
 
 		#typeText{
 			font-size: 20px;
@@ -781,6 +798,14 @@ Table of contents
 	        margin-left: 50px;
 	    }
 
+		.portfolio-description, #mobile-description{
+
+			margin-top: 10px;
+			margin-bottom: 40px;
+
+		}
+
+
     /*portfolio   grid*/
     .portfolio.col-2 .portfolio-item,
     .portfolio.col-3 .portfolio-item,
@@ -791,6 +816,8 @@ Table of contents
         width: 100%;
         /*width: 50%;*/
     }
+
+
 
     .error-parallax .error-avatar img {
         width: 50%;
@@ -821,6 +848,14 @@ Table of contents
    ------------------------------- */
 
 @media screen and (max-width: 479px) {
+
+
+	.portfolio-description, #mobile-description{
+
+		margin-top: 10px;
+		margin-bottom: 40px;
+
+	}
 
 
     .hero-text{
