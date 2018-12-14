@@ -45,7 +45,7 @@
 
 .portfolio-item:hover .portfolio-hover .portfolio-description {
     bottom: 45%;
-    margin-bottom: -90px;
+    margin-bottom: -30px;
 }
 
 .portfolio-item:hover .portfolio-hover .action-btn {
@@ -91,7 +91,8 @@
     margin-bottom: 5px;
     font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .portfolio-description p {
@@ -99,8 +100,8 @@
     margin-bottom: 0;
     text-transform: uppercase;
     font-family: 'Abel', sans-serif;
-    font-weight: normal;
-    letter-spacing: 3px;
+    font-weight: bold;
+    letter-spacing: 1px;
     color: #757575;
 }
 
